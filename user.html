@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>我的资产</title>
+  <link rel="shortcut icon" href="./images/icon.ico">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- <meta http-equiv="refresh" content="120"> -->
+  <!-- 自动刷新 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/user.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- L2Dwidget.js L2D网页动画人物 -->
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+  <script>
+    L2Dwidget.init({
+      "model": { "jsonPath": "https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json", "scale": 1, "hHeadPos": 0.5, "vHeadPos": 0.618 },
+      "display": { "position": "right", "width": 100, "height": 300, "hOffset": 0, "vOffset": -100 },
+      "mobile": { "show": true, "scale": 0.5 },
+      "react": { "opacityDefault": 0.7, "opacityOnHover": 0.2 }
+    });
+  </script>
+
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50" onload="login()">
+
+
+  <!-- Home section
+  ================================================== -->
+  <section id="home" class="parallax-section">
+    <!--使用parallax插件-->
+    <div class="container">
+        <div class="row">
+                <div class="main col">
+                    <h3 class="Star wow fadeInLeft" data-wow-delay="0.2s">您当前账户可用余额为</h3>
+                    <h1 class="Star wow fadeInRight" data-wow-delay="1.5s" id="money")>0元</h1>
+                    <a href='./images/支付.jpg'class="btn btn-danger wow fadeInUp"
+                        data-wow-delay="0.4s">充值</a>
+                    <a href="#about" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="0.6s">还是充值(放弃提现吧bro)</a>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Navigation section
+  ================================================== -->
+  <section class="navbar navbar-default navbar-fixed-top wow fadeInDown" role="navigation">
+    <div class="container">
+      <a href="./index.html" class="navbar-brand" id="nb">星哲影像</a>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right main-navigation">
+          <li><a href="" class="smoothScroll" id="登陆注册">登陆/注册</a></li>
+          <li><a href="./changepw.html" class="smoothScroll">修改密码</a></li>
+          <li><a href="./search.html" class="smoothScroll">订单查询</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/jquery.parallax.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/user.js"></script>
+</body>
+
+</html>
